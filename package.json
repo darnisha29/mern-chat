@@ -1,0 +1,27 @@
+{
+  "name": "mern-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "darnisha patel",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.11.2",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.4.1",
+    "nodemon": "^3.0.1",
+    "proxy": "^2.1.1",
+    "react-router-dom": "^5.3.4"
+  }
+}
